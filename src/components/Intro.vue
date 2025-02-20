@@ -14,7 +14,7 @@
             <h2 class="text-h4 mb-4 white--text">
               Bursts, Waveforms, and Beyond
             </h2>
-            <p class="text-h6 white--text">March 15-19, 2025 | University of the Balearic Islands</p>
+            <p class="text-h6 white--text">March 4-6, 2025 | University of the Balearic Islands</p>
             <v-btn color="primary" large class="mt-6" @click="$vuetify.goTo('#about')">
               Learn More
             </v-btn>
