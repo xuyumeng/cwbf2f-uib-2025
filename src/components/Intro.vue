@@ -86,7 +86,7 @@
         <v-row align="center">
           <v-col cols="12" md="6">
             <p class="text-body-1">
-              The workshop will be held at the University of the Balearic Islands Campus,
+              The workshop will be held at the University of the Balearic Islands ParcBit Campus,
               featuring state-of-the-art facilities and surrounded by the beautiful
               Mediterranean landscape.
             </p>
