@@ -9,7 +9,7 @@
       :class="{ expand: flat }"
     >
       <v-toolbar-title>
-        <v-img src="@/assets/cwb_logo.png" max-width="50px" />
+        <v-img src="@/assets/cwb_logo_long.png" max-width="130px" />
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
