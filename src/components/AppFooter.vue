@@ -27,9 +27,9 @@
 <script setup>
   const items = [
     {
-      title: 'Vuetify GitHub',
+      title: 'GitHub Repository for the website',
       icon: `mdi-github`,
-      href: 'https://github.com/vuetifyjs/vuetify',
+      href: 'https://github.com/xuyumeng/cwbf2f-uib-2025',
     },
   ]
 </script>
