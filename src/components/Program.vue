@@ -70,14 +70,14 @@ export default {
       {
         start: "10:00",
         end: "10:40",
-        title: "Waveforms introduction",
-        speaker: "Sascha"
+        title: "Invited talk: Waveforms introduction",
+        speaker: "Sascha Husa"
       },
       {
         start: "10:40",
         end: "11:20",
-        title: "cWB introduction",
-        speaker: "Francesco"
+        title: "Invited talk: cWB introduction",
+        speaker: "TBD"
       },
       {
         start: "11:20",
@@ -92,15 +92,26 @@ export default {
         subSessions: [
           {
             start: "11:50",
-            end: "12:15",
-            title: "eBBH",
-            speaker: "Toni"
+            end: "12:10",
+            title: "Eccentric waveforms",
+            speaker: "Antoni Ramos-Buades"
           },
           {
-            start: "12:15",
+            start: "12:10",
             end: "12:30",
-            title: "Memory",
-            speaker: "Maria"
+            title: "Memory effects",
+            speaker: "Maria Rossello"
+          },
+          {
+            start: "12:30",
+            end: "12:50",
+            title: "NN-based waveform generation",
+            speaker: "Osvaldo Freitas"
+          },
+          {
+            start: "12:50",
+            end: "13:00",
+            title: "Discussion"
           }
         ]
       },
@@ -135,13 +146,40 @@ export default {
     sessions: [
       {
         start: "10:00",
-        end: "10:45",
-        title: "Pulsars"
+        end: "10:40",
+        title: "Invited talk: Continuous gravitational waves",
+        speaker: "Pep Covas Vidal"
       },
       {
-        start: "10:45",
+        start: "10:40",
         end: "12:00",
-        title: "cWB+pulsar physics+lensing+test GR + other topics"
+        title: "cWB+pulsar physics+lensing+test GR + other topics",
+        subSessions: [
+          {
+            start: "10:40",
+            end: "11:00",
+            title: "Coincident detections + Lessons learned from a Bayesian approach to burst detections",
+            speaker: "Edoardo Milotti"
+          },
+          {
+            start: "11:00",
+            end: "11:20",
+            title: "WDM parameters and whitening ",
+            speaker: "Alessandro Martini"
+          },
+          {
+            start: "11:20",
+            end: "11:40",
+            title: "Updates on the study of subthreshold events and antenna pattern",
+            speaker: "Davide Di Piero"
+          },
+          {
+            start: "11:40",
+            end: "12:00",
+            title: "machine scientist proj",
+            speaker: "Giuseppe Troian"
+          }
+        ]
       },
       {
         start: "12:00",
@@ -152,7 +190,8 @@ export default {
       {
         start: "12:30",
         end: "13:15",
-        title: "Pulsar glitches"
+        title: "Invited talk: Pulsar glitches",
+        speaker: "David Keitel"
       },
       {
         start: "13:00",
