@@ -124,7 +124,7 @@ export default {
       {
         start: "14:30",
         end: "16:30",
-        title: "cWB-2G paper discussion",
+        title: "cWB-2G paper discussion (Reserved closed session for paper writing team)",
         note: "Reserved closed session for paper writing team"
       },
       {
@@ -189,12 +189,12 @@ export default {
       },
       {
         start: "12:30",
-        end: "13:15",
+        end: "13:10",
         title: "Invited talk: Pulsar glitches",
         speaker: "David Keitel"
       },
       {
-        start: "13:00",
+        start: "13:10",
         end: "14:30",
         title: "Lunch",
         type: "break"
@@ -203,7 +203,6 @@ export default {
         start: "14:30",
         end: "16:30",
         title: "cWB technical discussions",
-        description: "PycWB tutorial and development discussion"
       },
       {
         start: "16:30",
@@ -228,12 +227,12 @@ export default {
       },
       {
         start: "11:30",
-        end: "11:45",
+        end: "12:00",
         title: "Coffee break",
         type: "break"
       },
       {
-        start: "11:45",
+        start: "12:00",
         end: "13:00",
         title: "cWB technical discussions"
       },

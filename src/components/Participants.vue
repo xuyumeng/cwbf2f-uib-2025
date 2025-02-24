@@ -45,27 +45,28 @@
     data: () => ({
       searchQuery: '',
       rawData: `
-        Yumeng Xu   University of the Balearic Islands  TRUE
-        Giuseppe Troian University of Trieste   TRUE
-        Leigh Smith University of Trieste   FALSE
-        Osvaldo Freitas University of València  TRUE
-        Matteo Scialpi  University of Ferrara   FALSE
-        Panagiotis Iosif    University of Trieste   FALSE
-        Giovanni Prodi  University of Trento    TRUE
-        Marco Drago La Sapienza, Roma   FALSE
-        Alessandro Martini  University of Trento    TRUE
-        Edoardo Milotti University of Trieste   TRUE
-        Davide Di Piero University of Trieste   TRUE
-        Claudia Lazzaro University of Cagliari  TRUE
-        Maria Rossello  University of the Balearic Islands  TRUE
-        Antoni Ramos-Buades University of the Balearic Islands  TRUE
-        Giacomo Principe    University of Trieste   FALSE
-        agata trovato   University of Trieste   FALSE
-        Maria Antònia Ferrer Martínez   University of Balearic Islands  TRUE
-        Arnau Montava Agudo University of the Balearic Islands  TRUE
-        Pep Covas Vidal University of the Balearic Islands  TRUE
-        Jesus Yebana    University of the Balearic Islands  TRUE
-        Jorge Valencia  University of the Balearic Islands  TRUE
+        agata trovato	University of Trieste	FALSE
+Alessandro Martini	University of Trento	TRUE
+Andrea Miani	Università di trento	TRUE
+Antoni Ramos-Buades	University of the Balearic Islands	TRUE
+Arnau Montava Agudo	University of the Balearic Islands	TRUE
+Claudia Lazzaro	University of Cagliari	TRUE
+Davide Di Piero	University of Trieste	TRUE
+Edoardo Milotti	University of Trieste	TRUE
+Giacomo Principe	University of Trieste	FALSE
+Giovanni Prodi	University of Trento	TRUE
+Giuseppe Troian	University of Trieste	TRUE
+Jesus Yebana	University of the Balearic Islands	TRUE
+Jorge Valencia	University of the Balearic Islands	TRUE
+Leigh Smith	University of Trieste	FALSE
+Marco Drago	La Sapienza, Roma	FALSE
+Maria Antònia Ferrer Martínez	University of the Balearic Islands	TRUE
+Maria Rossello	University of the Balearic Islands	TRUE
+Matteo Scialpi	University of Ferrara	FALSE
+Osvaldo Freitas	University of València	TRUE
+Panagiotis Iosif	University of Trieste	FALSE
+Pep Covas Vidal	University of the Balearic Islands	TRUE
+Yumeng Xu	University of the Balearic Islands	TRUE
       `,
       participants: [
       ]
