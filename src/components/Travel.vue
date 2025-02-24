@@ -21,8 +21,21 @@
                 <v-icon small>mdi-bus</v-icon> Bus 19 accepts cash (€2) or transport cards (available at stops). 
                 Alternative routes include Metro Line M1 (20-minute walk from UIB main campus).
               </p>
+              <v-img
+                src="@/assets/bus19.png"
+                aspect-ratio="1.15"
+                class="elevation-6"
+              >
+                <template v-slot:placeholder>
+                  <v-row class="fill-height" justify="center" align="center">
+                    <v-progress-circular indeterminate color="primary"></v-progress-circular>
+                  </v-row>
+                </template>
+              </v-img>
+              <p class="text-caption text-center mt-2">Bus Line 19 Route Map</p>
+
               <v-alert color="primary" icon="mdi-alert" dense outlined class="mt-4">
-                Pro tip: Consider purchasing a transport card for multiple journeys
+                Consider purchasing a transport card for multiple journeys
               </v-alert>
             </v-col>
             <v-col cols="12" md="5">
@@ -66,26 +79,26 @@
           <v-col cols="12" md="8">
             <v-list two-line>
               <v-list-item>
-                <v-list-item-icon>
+                <!-- <v-list-item-icon>
                   <v-icon color="primary">mdi-hotel</v-icon>
-                </v-list-item-icon>
+                </v-list-item-icon> -->
                 <v-list-item-content>
                   <v-list-item-title class="font-weight-bold">Best Options:</v-list-item-title>
-                  <v-list-item-subtitle>Abelux, Abelay hotels (on Bus 19 route)</v-list-item-subtitle>
+                  <v-list-item-subtitle>Hotels near Bus line 19</v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
               
               <v-list-item>
-                <v-list-item-icon>
+                <!-- <v-list-item-icon>
                   <v-icon color="primary">mdi-walk</v-icon>
-                </v-list-item-icon>
+                </v-list-item-icon> -->
                 <v-list-item-content>
                   <v-list-item-title class="font-weight-bold">Central Area:</v-list-item-title>
-                  <v-list-item-subtitle>Downtown Palma (walkable inner ring road)</v-list-item-subtitle>
+                  <v-list-item-subtitle>Downtown Palma</v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
   
-              <v-list-item>
+              <!-- <v-list-item>
                 <v-list-item-icon>
                   <v-icon color="primary">mdi-cash</v-icon>
                 </v-list-item-icon>
@@ -95,29 +108,29 @@
                     Intermodal Station area or Residencia de Estudiantes Mayol
                   </v-list-item-subtitle>
                 </v-list-item-content>
-              </v-list-item>
+              </v-list-item> -->
             </v-list>
           </v-col>
-          <v-col cols="12" md="4">
+          <!-- <v-col cols="12" md="4">
             <v-alert type="info" border="left" class="mb-4">
               March is low season - check seaside hotels near Bellver Park
             </v-alert>
             <v-alert type="warning" border="left">
               Seaside hotels may limit evening activity participation
             </v-alert>
-          </v-col>
+          </v-col> -->
         </v-row>
       </v-container>
   
       <!-- Transportation Map Section -->
       <v-sheet color="primary lighten-5" class="py-12">
         <v-container>
-          <h3 class="text-h4 mb-6">Transportation Map</h3>
+          <h3 class="text-h4 mb-6">Airport Shuttle</h3>
           <v-row>
             <v-col cols="12" md="8">
               <v-img
-                src="@/assets/bus19.png"
-                aspect-ratio="1.15"
+                src="@/assets/busa1.png"
+                aspect-ratio="1.54"
                 class="elevation-6"
               >
                 <template v-slot:placeholder>
@@ -126,32 +139,56 @@
                   </v-row>
                 </template>
               </v-img>
-              <p class="text-caption text-center mt-2">Bus Line 19 Route Map (placeholder)</p>
+              <p class="text-caption text-center mt-2">Bus Line A1 Route Map</p>
             </v-col>
             <v-col cols="12" md="4">
               <v-card class="mb-4">
                 <v-card-title class="primary--text">
                   <v-icon left>mdi-airplane</v-icon>
                   Airport Transfer
-                </v-card-title>
+                </v-card-title> 
                 <v-card-text>
                   <p class="text-body-1">
                     <strong>A1 Airport Bus:</strong> €5 ticket (credit card/cash at machine)
                   </p>
-                  <v-divider class="my-3"></v-divider>
+                  <!-- <v-divider class="my-3"></v-divider>
                   <p class="text-body-1">
                     <v-icon small>mdi-train</v-icon> Metro connects to Intermodal Station
-                  </p>
+                  </p> -->
+                  <v-btn 
+                    color="secondary" 
+                    href="https://www.emtpalma.cat/en/lines/A1/aeroport-palma-centre/652/palma-(pg.-mallorca)/1/1031" 
+                    target="_blank"
+                    block
+                    class="mb-3"
+                  >
+                    <v-icon left>mdi-bus-side</v-icon>
+                    Route & Schedule
+                  </v-btn>
                 </v-card-text>
               </v-card>
   
-              <v-alert color="success" icon="mdi-credit-card" outlined>
+              <!-- <v-alert color="success" icon="mdi-credit-card" outlined>
                 <strong>Save money:</strong> Use credit card directly on TiB buses for better rates
-              </v-alert>
+              </v-alert> -->
             </v-col>
           </v-row>
         </v-container>
       </v-sheet>
+
+      <!-- What to do in Mallorca
+      <v-container class="py-12">
+        <h3 class="text-h4 mb-6">What to do in Mallorca</h3>
+        <v-row>
+          <v-col cols="12" md="8">
+            Baleric Islands Day!
+          </v-col>
+          <v-col cols="12" md="4">
+            
+          </v-col>
+        </v-row>
+      </v-container> -->
+
     </v-container>
   </template>
   

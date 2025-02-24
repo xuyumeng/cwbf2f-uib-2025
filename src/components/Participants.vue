@@ -44,38 +44,65 @@
   export default {
     data: () => ({
       searchQuery: '',
+      rawData: `
+        Yumeng Xu   University of the Balearic Islands  TRUE
+        Giuseppe Troian University of Trieste   TRUE
+        Leigh Smith University of Trieste   FALSE
+        Osvaldo Freitas University of València  TRUE
+        Matteo Scialpi  University of Ferrara   FALSE
+        Panagiotis Iosif    University of Trieste   FALSE
+        Giovanni Prodi  University of Trento    TRUE
+        Marco Drago La Sapienza, Roma   FALSE
+        Alessandro Martini  University of Trento    TRUE
+        Edoardo Milotti University of Trieste   TRUE
+        Davide Di Piero University of Trieste   TRUE
+        Claudia Lazzaro University of Cagliari  TRUE
+        Maria Rossello  University of the Balearic Islands  TRUE
+        Antoni Ramos-Buades University of the Balearic Islands  TRUE
+        Giacomo Principe    University of Trieste   FALSE
+        agata trovato   University of Trieste   FALSE
+        Maria Antònia Ferrer Martínez   University of Balearic Islands  TRUE
+        Arnau Montava Agudo University of the Balearic Islands  TRUE
+        Pep Covas Vidal University of the Balearic Islands  TRUE
+        Jesus Yebana    University of the Balearic Islands  TRUE
+        Jorge Valencia  University of the Balearic Islands  TRUE
+      `,
       participants: [
-        {
-          name: "Giovanni Prodi",
-          affiliation: "University of Trento",
-          inperson: true,
-        },
-        {
-            name: "Francesco Salemi",
-            affiliation: "University of Rome",
-            inperson: true,
-        },
-        {
-            name: "Marco Drago",
-            affiliation: "University of Rome",
-            inperson: true,
-        },
-        {
-            name: "Random Person",
-            affiliation: "University of Rome",
-            inperson: false,
-        }
-        // Add more participants
       ]
     }),
     
     computed: {
       filteredParticipants() {
         const query = this.searchQuery.toLowerCase();
-        return this.participants.filter(p => 
+        return this.participants.filter(p =>
           p.name.toLowerCase().includes(query) ||
           p.affiliation.toLowerCase().includes(query)
         );
+      }
+    },
+
+    created() {
+      this.participants = this.parseParticipants(this.rawData);
+    },
+
+    methods: {
+      parseParticipants(input) {
+        const lines = input.trim().split("\n"); // Split input into lines
+        const attendees = [];
+
+        lines.forEach(line => {
+            const parts = line.trim().split(/\s+/); // Split by spaces
+            const inperson = parts.pop().toUpperCase() === "TRUE"; // Last part is TRUE/FALSE
+            const index = parts.findIndex(word => word.startsWith("Univer") || word.startsWith("La")); // Find where the affiliation starts
+
+            if (index !== -1) {
+                const name = parts.slice(0, index).join(" "); // Name before affiliation
+                const affiliation = parts.slice(index).join(" "); // Affiliation after name
+                attendees.push({ name, affiliation, inperson });
+            }
+        });
+
+        return attendees;
       }
     }
   };

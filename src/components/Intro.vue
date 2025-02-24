@@ -15,9 +15,9 @@
               Bursts, Waveforms, and Beyond
             </h2>
             <p class="text-h6 white--text">March 4-6, 2025 | University of the Balearic Islands</p>
-            <v-btn color="primary" large class="mt-6" @click="$vuetify.goTo('#about')">
+            <!-- <v-btn color="primary" large class="mt-6" @click="$vuetify.goTo('#about')">
               Learn More
-            </v-btn>
+            </v-btn> -->
           </v-col>
         </v-row>
       </v-parallax>
@@ -28,16 +28,27 @@
           <v-col cols="12" md="8">
             <h2 class="text-h3 text-center mb-6">About the Workshop</h2>
             <p class="text-body-1 text-center">
-              The cWB@UIB 2025 workshop brings together experts in gravitational-wave astronomy,
+              <!-- The cWB@UIB 2025 workshop brings together experts in gravitational-wave astronomy,
               numerical relativity, and data analysis to explore the latest developments in
-              burst detection, waveform modeling, and beyond-standard signal analysis.
+              burst detection, waveform modeling, and beyond-standard signal analysis. -->
+              We are excited to welcome you to the cWB Face-to-Face Workshop (cWBf2f) 2025, 
+              hosted at the University of the Balearic Islands (UIB). 
+              This workshop aims to advance and modernize coherent WaveBurst (cWB) and PycWB,
+              enhancing burst searches for the LVK collaboration and future gravitational wave observatories.
+            </p>
+            <p class="text-body-1 text-center">
+              As UIB is home to a vibrant research community in gravitational wave science, 
+              this event will also foster collaboration and synergy between different scientific groups. 
+              Through a mix of technical discussions, hands-on sessions, and scientific exchanges, 
+              we will explore waveform modeling, burst searches, pulsar physics, gravitational lensing, 
+              and tests of General Relativity.
             </p>
           </v-col>
         </v-row>
       </v-container>
   
       <!-- Theme & Highlights -->
-      <v-sheet color="grey lighten-4" class="py-12">
+      <!-- <v-sheet color="grey lighten-4" class="py-12">
         <v-container>
           <h2 class="text-h3 text-center mb-8">Workshop Themes</h2>
           <v-row>
@@ -54,7 +65,6 @@
                     </v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
-                <!-- Add more list items -->
               </v-list>
             </v-col>
             <v-col cols="12" md="6">
@@ -78,9 +88,10 @@
             </v-col>
           </v-row>
         </v-container>
-      </v-sheet>
+      </v-sheet> -->
   
       <!-- Venue Section -->
+      <v-sheet color="primary lighten-5" class="py-12">
       <v-container class="py-12">
         <h2 class="text-h3 text-center mb-8">Venue</h2>
         <v-row align="center">
@@ -103,9 +114,9 @@
           </v-col>
         </v-row>
       </v-container>
-  
+    </v-sheet>
       <!-- Organizing Committee -->
-      <v-sheet color="primary lighten-5" class="py-12">
+      <v-sheet class="py-12">
         <v-container>
           <h2 class="text-h3 text-center mb-8">Organizing Committee</h2>
           <v-row>
