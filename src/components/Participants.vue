@@ -56,6 +56,7 @@ Edoardo Milotti	University of Trieste	TRUE
 Giacomo Principe	University of Trieste	FALSE
 Giovanni Prodi	University of Trento	TRUE
 Giuseppe Troian	University of Trieste	TRUE
+Iuri La Rosa	University of the Balearic Islands	TRUE
 Jesus Yebana	University of the Balearic Islands	TRUE
 Joan Llobera-Querol	University of the Balearic Islands	TRUE
 Jorge Valencia	University of the Balearic Islands	TRUE
@@ -67,6 +68,7 @@ Matteo Scialpi	University of Ferrara	FALSE
 Osvaldo Freitas	University of València	TRUE
 Panagiotis Iosif	University of Trieste	FALSE
 Pep Covas Vidal	University of the Balearic Islands	TRUE
+Shubhanshu Tiwari	University of Zurich	TRUE
 Yumeng Xu	University of the Balearic Islands	TRUE
       `,
       participants: [

@@ -132,7 +132,7 @@
                 </v-avatar>
                 <h3 class="text-h6">{{ member.name }}</h3>
                 <p class="text-body-2">{{ member.affiliation }}</p>
-                <p class="text-caption font-italic">{{ member.role }}</p>
+                <!-- <p class="text-caption font-italic">{{ member.role }}</p> -->
               </v-card>
             </v-col>
           </v-row>
@@ -154,31 +154,26 @@
         {
           name: "Dr. Yumeng Xu",
           affiliation: "University of the Balearic Islands",
-          role: "Chair",
           avatar: "https://via.placeholder.com/150"
         },
         {
           name: "Dr. Shubhanshu Tiwari",
           affiliation: "University of Zurich",
-          role: "Chair",
           avatar: "https://via.placeholder.com/150"
         },
         {
           name: "Prof. Sascha Husa",
           affiliation: "University of the Balearic Islands",
-          role: "Chair",
           avatar: "https://via.placeholder.com/150"
         },
         {
           name: "Prof. David Keitel",
           affiliation: "University of the Balearic Islands",
-          role: "Chair",
           avatar: "https://via.placeholder.com/150"
         },
         {
           name: "Prof. Alicia Sintes",
           affiliation: "University of the Balearic Islands",
-          role: "Chair",
           avatar: "https://via.placeholder.com/150"
         },
         // Add more committee members
