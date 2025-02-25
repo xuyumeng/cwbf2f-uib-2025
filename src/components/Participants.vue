@@ -45,7 +45,7 @@
     data: () => ({
       searchQuery: '',
       rawData: `
-        agata trovato	University of Trieste	FALSE
+agata trovato	University of Trieste	FALSE
 Alessandro Martini	University of Trento	TRUE
 Andrea Miani	Università di trento	TRUE
 Antoni Ramos-Buades	University of the Balearic Islands	TRUE
@@ -57,6 +57,7 @@ Giacomo Principe	University of Trieste	FALSE
 Giovanni Prodi	University of Trento	TRUE
 Giuseppe Troian	University of Trieste	TRUE
 Jesus Yebana	University of the Balearic Islands	TRUE
+Joan Llobera-Querol	University of the Balearic Islands	TRUE
 Jorge Valencia	University of the Balearic Islands	TRUE
 Leigh Smith	University of Trieste	FALSE
 Marco Drago	La Sapienza, Roma	FALSE

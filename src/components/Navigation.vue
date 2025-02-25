@@ -85,7 +85,7 @@ export default {
     items: [
       ["mdi-home-outline", "Home", "/"],
       ["mdi-information-outline", "Travel & Accomodation", "/travel"],
-      ["mdi-list-box-outline", "Pragram", "/program"],
+      ["mdi-list-box-outline", "Program", "/program"],
       ["mdi-account-group-outline", "Participants", "/participants"],
     ],
   }),

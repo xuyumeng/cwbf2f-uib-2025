@@ -234,7 +234,7 @@ export default {
       {
         start: "12:00",
         end: "13:00",
-        title: "PycWB Development session"
+        title: "cWB and PycWB Development session"
       },
       {
         start: "14:30",
