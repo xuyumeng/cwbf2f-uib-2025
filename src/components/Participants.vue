@@ -47,10 +47,12 @@
       rawData: `
 agata trovato	University of Trieste	FALSE
 Alessandro Martini	University of Trento	TRUE
+Alicia M. Sintes	University of the Balearic Islands	TRUE
 Andrea Miani	Università di trento	TRUE
 Antoni Ramos-Buades	University of the Balearic Islands	TRUE
 Arnau Montava Agudo	University of the Balearic Islands	TRUE
 Claudia Lazzaro	University of Cagliari	TRUE
+David Keitel	University of the Balearic Islands	FALSE
 Davide Di Piero	University of Trieste	TRUE
 Edoardo Milotti	University of Trieste	TRUE
 Giacomo Principe	University of Trieste	FALSE
@@ -68,6 +70,7 @@ Matteo Scialpi	University of Ferrara	FALSE
 Osvaldo Freitas	University of València	TRUE
 Panagiotis Iosif	University of Trieste	FALSE
 Pep Covas Vidal	University of the Balearic Islands	TRUE
+Sascha Husa	University of the Balearic Islands	TRUE
 Shubhanshu Tiwari	University of Zurich	TRUE
 Yumeng Xu	University of the Balearic Islands	TRUE
       `,
