@@ -19,6 +19,11 @@
                   {{ session.start }} - {{ session.end }}
                 </div>
                 <div class="session-title flex-grow-1">
+                  <!-- Add coffee icon if type is break -->
+                  <v-icon v-if="session.type === 'break'">mdi-coffee</v-icon>
+                  <!-- Add a lunch icon if type is lunch -->
+                  <v-icon v-if="session.type === 'lunch'">mdi-silverware-fork-knife</v-icon>
+                  <v-icon v-if="session.type === 'dinner'">mdi-silverware-fork-knife</v-icon>
                   {{ session.title }}
                   <span v-if="session.speaker" class="text-caption grey--text">
                     ({{ session.speaker }})
@@ -64,197 +69,222 @@
 export default {
   data: () => ({
     schedule: [
-  {
-    date: "March 4, Tuesday",
-    sessions: [
       {
-        start: "10:00",
-        end: "10:40",
-        title: "Invited talk: Waveforms introduction",
-        speaker: "Sascha Husa"
-      },
-      {
-        start: "10:40",
-        end: "11:20",
-        title: "Invited talk: cWB introduction",
-        speaker: "TBD"
-      },
-      {
-        start: "11:20",
-        end: "11:50",
-        title: "Coffee break",
-        type: "break"
-      },
-      {
-        start: "11:50",
-        end: "13:00",
-        title: "cWB+waveforms discussions",
-        subSessions: [
+        date: "March 3, Monday",
+        sessions: [
           {
-            start: "11:50",
-            end: "12:10",
-            title: "Eccentric waveforms",
-            speaker: "Antoni Ramos-Buades"
-          },
-          {
-            start: "12:10",
-            end: "12:30",
-            title: "Memory effects",
-            speaker: "Maria Rossello"
-          },
-          {
-            start: "12:30",
-            end: "12:50",
-            title: "NN-based waveform generation",
-            speaker: "Osvaldo Freitas"
-          },
-          {
-            start: "12:50",
-            end: "13:00",
-            title: "Discussion"
+            start: "19:30",
+            end: "21:00",
+            title: "Welcome Dinner",
+            type: "dinner"
           }
         ]
       },
       {
-        start: "13:00",
-        end: "14:30",
-        title: "Lunch",
-        type: "break"
-      },
-      {
-        start: "14:30",
-        end: "16:30",
-        title: "cWB-2G paper discussion (Reserved closed session for paper writing team)",
-        note: "Reserved closed session for paper writing team"
-      },
-      {
-        start: "16:30",
-        end: "17:00",
-        title: "Coffee break",
-        type: "break"
-      },
-      {
-        start: "17:00",
-        end: "18:30",
-        title: "cWB technical discussions",
-        description: "Whitening and more whitening and more whitening"
-      }
-    ]
-  },
-  {
-    date: "March 5, Wednesday",
-    sessions: [
-      {
-        start: "10:00",
-        end: "10:40",
-        title: "Invited talk: Continuous gravitational waves",
-        speaker: "Pep Covas Vidal"
-      },
-      {
-        start: "10:40",
-        end: "12:00",
-        title: "cWB+pulsar physics+lensing+test GR + other topics",
-        subSessions: [
+        date: "March 4, Tuesday",
+        sessions: [
           {
-            start: "10:40",
-            end: "11:00",
-            title: "Coincident detections + Lessons learned from a Bayesian approach to burst detections",
-            speaker: "Edoardo Milotti"
+            start: "10:00",
+            end: "10:40",
+            title: "Invited talk: Waveforms introduction",
+            speaker: "Sascha Husa"
           },
           {
-            start: "11:00",
+            start: "10:40",
             end: "11:20",
-            title: "WDM parameters and whitening ",
-            speaker: "Alessandro Martini"
+            title: "Invited talk: cWB introduction",
+            speaker: "TBD"
           },
           {
             start: "11:20",
-            end: "11:40",
-            title: "Updates on the study of subthreshold events and antenna pattern",
-            speaker: "Davide Di Piero"
+            end: "11:50",
+            title: "Coffee break",
+            type: "break"
           },
           {
-            start: "11:40",
-            end: "12:00",
-            title: "machine scientist proj",
-            speaker: "Giuseppe Troian"
+            start: "11:50",
+            end: "13:00",
+            title: "cWB+waveforms discussions",
+            expanded: true,
+            subSessions: [
+              {
+                start: "11:50",
+                end: "12:10",
+                title: "Eccentric waveforms",
+                speaker: "Antoni Ramos-Buades"
+              },
+              {
+                start: "12:10",
+                end: "12:30",
+                title: "Memory effects",
+                speaker: "Maria Rossello"
+              },
+              {
+                start: "12:30",
+                end: "12:50",
+                title: "NN-based waveform generation",
+                speaker: "Osvaldo Freitas"
+              },
+              {
+                start: "12:50",
+                end: "13:00",
+                title: "Discussion"
+              }
+            ]
+          },
+          {
+            start: "13:00",
+            end: "14:30",
+            title: "Lunch",
+            type: "lunch"
+          },
+          {
+            start: "14:30",
+            end: "16:30",
+            title: "cWB-2G paper discussion (Reserved closed session for paper writing team)",
+            note: "Reserved closed session for paper writing team"
+          },
+          {
+            start: "16:30",
+            end: "17:00",
+            title: "Coffee break",
+            type: "break"
+          },
+          {
+            start: "17:00",
+            end: "18:30",
+            title: "cWB technical discussions",
+            description: "Whitening and more whitening and more whitening"
           }
         ]
       },
       {
-        start: "12:00",
-        end: "12:30",
-        title: "Coffee break",
-        type: "break"
+        date: "March 5, Wednesday",
+        sessions: [
+          {
+            start: "10:00",
+            end: "10:40",
+            title: "Invited talk: Continuous gravitational waves",
+            speaker: "Pep Covas Vidal"
+          },
+          {
+            start: "10:40",
+            end: "12:00",
+            title: "cWB+pulsar physics+lensing+test GR + other topics",
+            expanded: true,
+            subSessions: [
+              {
+                start: "10:40",
+                end: "11:00",
+                title: "Coincident detections + Lessons learned from a Bayesian approach to burst detections",
+                speaker: "Edoardo Milotti"
+              },
+              {
+                start: "11:00",
+                end: "11:20",
+                title: "WDM parameters and whitening ",
+                speaker: "Alessandro Martini"
+              },
+              {
+                start: "11:20",
+                end: "11:40",
+                title: "Updates on the study of subthreshold events and antenna pattern",
+                speaker: "Davide Di Piero"
+              },
+              {
+                start: "11:40",
+                end: "12:00",
+                title: "machine scientist proj",
+                speaker: "Giuseppe Troian"
+              }
+            ]
+          },
+          {
+            start: "12:00",
+            end: "12:30",
+            title: "Coffee break",
+            type: "break"
+          },
+          {
+            start: "12:30",
+            end: "13:10",
+            title: "Invited talk: Pulsar glitches",
+            speaker: "David Keitel"
+          },
+          {
+            start: "13:10",
+            end: "14:30",
+            title: "Lunch",
+            type: "lunch"
+          },
+          {
+            start: "14:30",
+            end: "16:30",
+            title: "cWB technical discussions",
+          },
+          {
+            start: "16:30",
+            end: "17:00",
+            title: "Coffee break",
+            type: "break"
+          },
+          {
+            start: "17:00",
+            end: "18:30",
+            title: "(Burst call) cWB technical discussions"
+          },
+          {
+            start: "19:30",
+            end: "21:00",
+            title: "Social Dinner",
+            type: "dinner"
+          }
+        ]
       },
       {
-        start: "12:30",
-        end: "13:10",
-        title: "Invited talk: Pulsar glitches",
-        speaker: "David Keitel"
-      },
-      {
-        start: "13:10",
-        end: "14:30",
-        title: "Lunch",
-        type: "break"
-      },
-      {
-        start: "14:30",
-        end: "16:30",
-        title: "cWB technical discussions",
-      },
-      {
-        start: "16:30",
-        end: "17:00",
-        title: "Coffee break",
-        type: "break"
-      },
-      {
-        start: "17:00",
-        end: "18:30",
-        title: "(Burst call) cWB technical discussions"
+        date: "March 6, Thursday",
+        sessions: [
+          {
+            start: "10:00",
+            end: "11:30",
+            title: "PycWB Hands-on session"
+          },
+          {
+            start: "11:30",
+            end: "12:00",
+            title: "Coffee break",
+            type: "break"
+          },
+          {
+            start: "12:00",
+            end: "13:00",
+            title: "cWB and PycWB Development session"
+          },
+          {
+            start: "13:00",
+            end: "14:30",
+            title: "Lunch",
+            type: "lunch"
+          },
+          {
+            start: "14:30",
+            end: "16:30",
+            title: "cWB technical discussions"
+          },
+          {
+            start: "16:30",
+            end: "17:00",
+            title: "Coffee break",
+            type: "break"
+          },
+          {
+            start: "17:00",
+            end: "18:30",
+            title: "cWB technical discussions"
+          }
+        ]
       }
     ]
-  },
-  {
-    date: "March 6, Thursday",
-    sessions: [
-      {
-        start: "10:00",
-        end: "11:30",
-        title: "PycWB Hands-on session"
-      },
-      {
-        start: "11:30",
-        end: "12:00",
-        title: "Coffee break",
-        type: "break"
-      },
-      {
-        start: "12:00",
-        end: "13:00",
-        title: "cWB and PycWB Development session"
-      },
-      {
-        start: "14:30",
-        end: "16:30",
-        title: "cWB technical discussions"
-      },
-      {
-        start: "16:30",
-        end: "17:00",
-        title: "Coffee break",
-        type: "break"
-      },
-      {
-        start: "17:00",
-        end: "18:30",
-        title: "cWB technical discussions"
-      }
-    ]
-  }
-]
   }),
   methods: {
     initializeExpanded() {
