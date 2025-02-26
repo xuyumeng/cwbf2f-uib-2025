@@ -168,7 +168,7 @@ export default {
               {
                 start: "12:10",
                 end: "12:30",
-                title: "Memory effects",
+                title: "The (l=2, m=0) spherical harmonic: waveform modeling of aligned-spin and precessing systems including displacement memory",
                 speaker: "Maria Rossello"
               },
               {
