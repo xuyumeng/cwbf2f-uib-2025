@@ -128,7 +128,8 @@ export default {
               {
                 start: "12:50",
                 end: "13:10",
-                title: "Bayesian approach to model selection: inferring humanproof physical laws from unmodeled data"
+                title: "Bayesian approach to model selection: inferring humanproof physical laws from unmodeled data",
+                speaker: "Giuseppe Troian"
               }
             ]
           },
