@@ -1,6 +1,11 @@
 <template>
     <v-container fluid>
       <!-- Title Section -->
+      <v-parallax
+        src="@/assets/mallorca3.jpeg"
+        height="400"
+        class="d-flex align-center"
+      >
       <v-container class="py-12">
         <v-row justify="center">
           <v-col cols="12" md="8" class="text-center">
@@ -9,6 +14,7 @@
           </v-col>
         </v-row>
       </v-container>
+      </v-parallax>
   
       <!-- Transportation Section -->
       <v-sheet color="grey lighten-4" class="py-12">
@@ -123,7 +129,11 @@
       </v-container>
   
       <!-- Transportation Map Section -->
-      <v-sheet color="primary lighten-5" class="py-12">
+      <v-parallax
+        src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg"
+        height="600"
+        class="d-flex align-center"
+      >
         <v-container>
           <h3 class="text-h4 mb-6">Airport Shuttle</h3>
           <v-row>
@@ -174,7 +184,7 @@
             </v-col>
           </v-row>
         </v-container>
-      </v-sheet>
+      </v-parallax>
 
       <!-- What to do in Mallorca
       <v-container class="py-12">

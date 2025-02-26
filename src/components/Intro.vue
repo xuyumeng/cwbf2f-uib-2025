@@ -2,7 +2,7 @@
     <v-container fluid>
       <!-- Title Section -->
       <v-parallax
-        src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg"
+        src="@/assets/GravWave_bg.jpg"
         height="600"
         class="d-flex align-center"
       >
@@ -91,7 +91,12 @@
       </v-sheet> -->
   
       <!-- Venue Section -->
-      <v-sheet color="primary lighten-5" class="py-12">
+      <v-parallax
+        src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg"
+        height="600"
+        class="d-flex align-center"
+      >
+      <!-- <v-sheet color="primary lighten-5" class="py-12"> -->
       <v-container class="py-12">
         <h2 class="text-h3 text-center mb-8">Venue</h2>
         <v-row align="center">
@@ -114,7 +119,8 @@
           </v-col>
         </v-row>
       </v-container>
-    </v-sheet>
+    <!-- </v-sheet> -->
+    </v-parallax>
       <!-- Organizing Committee -->
       <v-sheet class="py-12">
         <v-container>
