@@ -179,6 +179,11 @@
           affiliation: "University of the Balearic Islands",
           avatar: "https://via.placeholder.com/150"
         },
+        {
+          name: "Joan Llobera-Querol",
+          affiliation: "University of the Balearic Islands",
+          avatar: "https://via.placeholder.com/150"
+        },
         // Add more committee members
       ]
     })
