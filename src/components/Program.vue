@@ -195,8 +195,8 @@ export default {
               {
                 start: "11:40",
                 end: "12:00",
-                title: "TBD",
-                speaker: "Aditya Sharma"
+                title: "TBD (On lensed continuous gravitational waves)",
+                speaker: "Aditya Kumar Sharma"
               }
             ]
           },
