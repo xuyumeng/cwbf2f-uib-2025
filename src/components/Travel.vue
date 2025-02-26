@@ -131,7 +131,6 @@
       <!-- Transportation Map Section -->
       <v-parallax
         src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg"
-        height="600"
         class="d-flex align-center"
       >
         <v-container>
