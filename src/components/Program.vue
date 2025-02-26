@@ -222,41 +222,49 @@ export default {
           },
           {
             start: "10:40",
-            end: "12:00",
-            title: "cWB+pulsar physics+lensing+test GR+other topics",
+            end: "11:20",
+            title: "cWB+lensing+other topics 1",
             expanded: true,
             subSessions: [
               {
                 start: "10:40",
                 end: "11:00",
-                title: "Coincident detections + Lessons learned from a Bayesian approach to burst detections",
-                speaker: "Edoardo Milotti"
+                title: "TBD (On lensed continuous gravitational waves)",
+                speaker: "Aditya Kumar Sharma"
               },
               {
                 start: "11:00",
                 end: "11:20",
+                title: "Coincident detections + Lessons learned from a Bayesian approach to burst detections",
+                speaker: "Edoardo Milotti"
+              },
+            ]
+          },
+          {
+            start: "11:20",
+            end: "11:50",
+            title: "Coffee break",
+            type: "break"
+          },
+          {
+            start: "11:50",
+            end: "12:30",
+            title: "cWB+lensing+other topics 2",
+            expanded: true,
+            subSessions: [
+              {
+                start: "11:50",
+                end: "12:10",
                 title: "WDM parameters and whitening ",
                 speaker: "Alessandro Martini"
               },
               {
-                start: "11:20",
-                end: "11:40",
-                title: "Updates on the study of subthreshold events and antenna pattern",
+                start: "12:10",
+                end: "12:30",
+                 title: "Updates on the study of subthreshold events and antenna pattern",
                 speaker: "Davide Di Piero"
-              },
-              {
-                start: "11:40",
-                end: "12:00",
-                title: "TBD (On lensed continuous gravitational waves)",
-                speaker: "Aditya Kumar Sharma"
               }
             ]
-          },
-          {
-            start: "12:00",
-            end: "12:30",
-            title: "Coffee break",
-            type: "break"
           },
           {
             start: "12:30",
