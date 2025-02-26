@@ -2,6 +2,57 @@
   <v-container class="py-8">
     <h2 class="text-h3 mb-6 text-center">Workshop Program</h2>
 
+        <!-- Zoom Meeting Card -->
+        <v-card class="mb-6" color="primary">
+      <v-card-title class="white--text">
+        <v-icon left color="white">mdi-video</v-icon>
+        Online Participation
+      </v-card-title>
+      <v-card-text class="white">
+        <v-row align="center">
+          <v-col cols="12" md="8">
+            <!-- show the link if the current date is 2025 Mar 4 -->
+            <div class="text-body-1 mb-2" v-if="is_start">
+              <strong>Zoom Meeting:</strong>
+              <v-btn
+                small
+                color="secondary"
+                :href="zoomlink"
+                target="_blank"
+                class="ml-2"
+              >
+                Join Meeting
+                <v-icon right>mdi-open-in-new</v-icon>
+              </v-btn>
+            </div>
+            <div class="text-body-1 mb-2" v-else-if="is_end">
+              <strong>Workshop has ended</strong>
+            </div>
+            <div class="text-body-1 mb-2" v-else>
+              <strong>Workshop starts on March 4, 2025</strong>
+            </div>
+            <div class="text-caption">
+              <v-icon small>mdi-information</v-icon>
+              The Zoom link will be active throughout the workshop
+            </div>
+          </v-col>
+          <!-- <v-col cols="12" md="4" class="text-center">
+            <v-img
+              src="/path-to-qr-code.png"
+              max-width="150"
+              class="mx-auto"
+              v-if="false"
+            />
+            <p class="text-caption mt-2">
+              <v-icon small>mdi-information</v-icon>
+              This link will be active throughout the workshop
+            </p>
+          </v-col> -->
+        </v-row>
+      </v-card-text>
+    </v-card>
+
+    <!-- Program Schedule -->
     <v-card v-for="(day, index) in schedule" :key="index" class="mb-6">
       <v-card-title class="primary white--text">
         {{ day.date }}
@@ -68,6 +119,7 @@
 <script>
 export default {
   data: () => ({
+    zoomlink: "https://infn-it.zoom.us/j/84185104807?pwd=OyvhGFkBoFzBa32xsypEqxQ4c1E0yy.1",
     schedule: [
       {
         date: "March 3, Monday",
@@ -287,6 +339,20 @@ export default {
       }
     ]
   }),
+  // Add variable if_start to check if the current date is 2025 Mar 4 in Europe/Madrid timezone
+  computed: {
+    is_start() {
+      const now = new Date()
+      const start = new Date("2025-03-04T00:00:00+01:00")
+      return now >= start
+    },
+    is_end() {
+      const now = new Date()
+      const end = new Date("2025-03-06T23:59:59+01:00")
+      return now >= end
+    }
+  },
+
   methods: {
     initializeExpanded() {
       this.schedule.forEach(day => {
