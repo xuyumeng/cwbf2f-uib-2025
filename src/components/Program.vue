@@ -307,18 +307,18 @@ export default {
         sessions: [
           {
             start: "10:00",
-            end: "11:30",
+            end: "11:20",
             title: "PycWB Hands-on session",
             speaker: "Yumeng Xu"
           },
           {
-            start: "11:30",
-            end: "12:00",
+            start: "11:20",
+            end: "11:50",
             title: "Coffee break",
             type: "break"
           },
           {
-            start: "12:00",
+            start: "11:50",
             end: "13:00",
             title: "cWB and PycWB Development session"
           },
