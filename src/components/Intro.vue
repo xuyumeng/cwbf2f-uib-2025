@@ -28,13 +28,10 @@
           <v-col cols="12" md="8">
             <h2 class="text-h3 text-center mb-6">About the Workshop</h2>
             <p class="text-body-1 text-center">
-              <!-- The cWB@UIB 2025 workshop brings together experts in gravitational-wave astronomy,
-              numerical relativity, and data analysis to explore the latest developments in
-              burst detection, waveform modeling, and beyond-standard signal analysis. -->
-              We are excited to welcome you to the cWB Face-to-Face Workshop (cWBf2f) 2025, 
+              We are excited to welcome you to the cWB-2G Face-to-Face Workshop (cWBf2f) 2025, 
               hosted at the University of the Balearic Islands (UIB). 
-              This workshop aims to advance and modernize coherent WaveBurst (cWB) and PycWB,
-              enhancing burst searches for the LVK collaboration and future gravitational wave observatories.
+              This workshop aims to advance and modernize coherent WaveBurst (cWB-2G) and PycWB,
+              enhancing burst searches for the LVK collaboration and future gravitational wave observatories. 
             </p>
             <p class="text-body-1 text-center">
               As UIB is home to a vibrant research community in gravitational wave science, 
