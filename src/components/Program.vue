@@ -93,7 +93,7 @@ export default {
             start: "10:40",
             end: "11:20",
             title: "Invited talk: cWB introduction",
-            speaker: "TBD"
+            speaker: "Giovanni Prodi"
           },
           {
             start: "11:20",
