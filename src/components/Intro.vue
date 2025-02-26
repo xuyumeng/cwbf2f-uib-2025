@@ -170,7 +170,7 @@
             <div class="text-caption text--secondary text-center mt-8">
               <p class="mb-2">
                 This workshop was supported by the Universitat de les Illes Balears (UIB); the Spanish Agencia Estatal
-                de Investigación grants PID2022-138626NB-I00, RED2022-134204-E, RED2022-134411-T, funded by
+                de Investigación grants PID2022-138626NB-I00, funded by
                 MICIU/AEI/10.13039/501100011033 and the ERDF/EU; and the Comunitat Autònoma de les Illes Balears through
                 the Conselleria d'Educació i Universitats with funds from the European Union -
                 NextGenerationEU/PRTR-C17.I1 (SINCO2022/6719)
