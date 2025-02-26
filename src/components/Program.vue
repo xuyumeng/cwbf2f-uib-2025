@@ -300,7 +300,8 @@ export default {
           {
             start: "10:00",
             end: "11:30",
-            title: "PycWB Hands-on session"
+            title: "PycWB Hands-on session",
+            speaker: "Yumeng Xu"
           },
           {
             start: "11:30",
