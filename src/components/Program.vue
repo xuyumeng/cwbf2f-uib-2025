@@ -103,7 +103,7 @@ export default {
           },
           {
             start: "11:50",
-            end: "13:00",
+            end: "13:10",
             title: "cWB+waveforms discussions",
             expanded: true,
             subSessions: [
@@ -127,13 +127,13 @@ export default {
               },
               {
                 start: "12:50",
-                end: "13:00",
-                title: "Discussion"
+                end: "13:10",
+                title: "Bayesian approach to model selection: inferring humanproof physical laws from unmodeled data"
               }
             ]
           },
           {
-            start: "13:00",
+            start: "13:10",
             end: "14:30",
             title: "Lunch",
             type: "lunch"
@@ -170,7 +170,7 @@ export default {
           {
             start: "10:40",
             end: "12:00",
-            title: "cWB+pulsar physics+lensing+test GR + other topics",
+            title: "cWB+pulsar physics+lensing+test GR+other topics",
             expanded: true,
             subSessions: [
               {
@@ -194,8 +194,8 @@ export default {
               {
                 start: "11:40",
                 end: "12:00",
-                title: "machine scientist proj",
-                speaker: "Giuseppe Troian"
+                title: "TBD",
+                speaker: "Aditya Sharma"
               }
             ]
           },
@@ -208,7 +208,7 @@ export default {
           {
             start: "12:30",
             end: "13:10",
-            title: "Invited talk: Pulsar glitches",
+            title: "Invited talk: Glitching pulsars and gravitational waves",
             speaker: "David Keitel"
           },
           {
