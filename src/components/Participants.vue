@@ -101,7 +101,12 @@ Yumeng Xu	University of the Balearic Islands	TRUE
         lines.forEach(line => {
             const parts = line.trim().split(/\s+/); // Split by spaces
             const inperson = parts.pop().toUpperCase() === "TRUE"; // Last part is TRUE/FALSE
-            const index = parts.findIndex(word => word.startsWith("Univer") || word.startsWith("La")); // Find where the affiliation starts
+            let index = parts.findIndex(word => word.startsWith("Univer"))
+            if (index == -1) {
+                index = parts.findIndex(word => word.startsWith("Sapienza"))
+
+                index -= 1
+            }
 
             if (index !== -1) {
                 const name = parts.slice(0, index).join(" "); // Name before affiliation
