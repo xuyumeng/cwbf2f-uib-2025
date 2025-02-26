@@ -52,7 +52,7 @@ Andrea Miani	Università di trento	TRUE
 Antoni Ramos-Buades	University of the Balearic Islands	TRUE
 Arnau Montava Agudo	University of the Balearic Islands	TRUE
 Claudia Lazzaro	University of Cagliari	TRUE
-David Keitel	University of the Balearic Islands	FALSE
+David Keitel	University of the Balearic Islands	TRUE
 Davide Di Piero	University of Trieste	TRUE
 Edoardo Milotti	University of Trieste	TRUE
 Giacomo Principe	University of Trieste	FALSE
