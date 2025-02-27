@@ -216,29 +216,8 @@ export default {
         sessions: [
           {
             start: "10:00",
-            end: "10:40",
-            title: "Invited talk: Continuous gravitational waves",
-            speaker: "Pep Covas Vidal"
-          },
-          {
-            start: "10:40",
             end: "11:20",
-            title: "cWB+lensing+other topics 1",
-            expanded: true,
-            subSessions: [
-              {
-                start: "10:40",
-                end: "11:00",
-                title: "TBD (On lensed continuous gravitational waves)",
-                speaker: "Aditya Kumar Sharma"
-              },
-              {
-                start: "11:00",
-                end: "11:20",
-                title: "Coincident detections",
-                speaker: "Edoardo Milotti"
-              },
-            ]
+            title: "(Burst call) cWB technical discussions"
           },
           {
             start: "11:20",
@@ -249,7 +228,7 @@ export default {
           {
             start: "11:50",
             end: "12:30",
-            title: "cWB+lensing+other topics 2",
+            title: "cWB + other topics 1",
             expanded: true,
             subSessions: [
               {
@@ -280,8 +259,41 @@ export default {
           },
           {
             start: "14:30",
+            end: "15:10",
+            title: "Invited talk: Continuous gravitational waves",
+            speaker: "Pep Covas Vidal"
+          },
+          {
+            start: "15:10",
             end: "16:30",
-            title: "cWB technical discussions",
+            title: "cWB + other topics 2",
+            expanded: true,
+            subSessions: [
+              {
+                start: "15:10",
+                end: "15:30",
+                title: "TBD (On lensed continuous gravitational waves)",
+                speaker: "Aditya Kumar Sharma"
+              },
+              {
+                start: "15:30",
+                end: "15:50",
+                title: "Coincident detections",
+                speaker: "Edoardo Milotti"
+              },
+              {
+                start: "15:50",
+                end: "16:10",
+                title: "LISA Science Team",
+                speaker: "Anna Heffernan"
+              },
+              {
+                start: "16:10",
+                end: "16:30",
+                title: "TBD",
+                speaker: "Samuel Gómez Gómez"
+              },
+            ]
           },
           {
             start: "16:30",
@@ -292,7 +304,7 @@ export default {
           {
             start: "17:00",
             end: "18:30",
-            title: "(Burst call) cWB technical discussions"
+            title: "cWB technical discussions"
           },
           {
             start: "19:30",
