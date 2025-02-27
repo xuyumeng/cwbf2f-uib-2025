@@ -235,7 +235,7 @@ export default {
               {
                 start: "11:00",
                 end: "11:20",
-                title: "Coincident detections + Lessons learned from a Bayesian approach to burst detections",
+                title: "Coincident detections",
                 speaker: "Edoardo Milotti"
               },
             ]
