@@ -290,7 +290,7 @@ export default {
               {
                 start: "16:10",
                 end: "16:30",
-                title: "TBD",
+                title: "Gravitational Waves and Gravitational Atoms",
                 speaker: "Samuel Gómez Gómez"
               },
             ]
