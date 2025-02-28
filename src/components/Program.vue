@@ -248,8 +248,8 @@ export default {
           {
             start: "12:30",
             end: "13:10",
-            title: "Invited talk: Glitching pulsars and gravitational waves",
-            speaker: "David Keitel"
+            title: "Invited talk: Continuous gravitational waves",
+            speaker: "Pep Covas Vidal"
           },
           {
             start: "13:10",
@@ -260,8 +260,8 @@ export default {
           {
             start: "14:30",
             end: "15:10",
-            title: "Invited talk: Continuous gravitational waves",
-            speaker: "Pep Covas Vidal"
+            title: "Invited talk: Glitching pulsars and gravitational waves",
+            speaker: "David Keitel"
           },
           {
             start: "15:10",
