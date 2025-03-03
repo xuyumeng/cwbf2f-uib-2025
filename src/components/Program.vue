@@ -144,7 +144,7 @@ export default {
           {
             start: "20:30",
             end: "22:00",
-            title: "Welcome Dinner (at Moozatura)",
+            title: "Welcome Dinner (at Mozzatura)",
             type: "dinner"
           }
         ]
