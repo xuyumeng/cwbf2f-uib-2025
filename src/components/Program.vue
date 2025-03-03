@@ -240,8 +240,8 @@ export default {
               {
                 start: "12:10",
                 end: "12:30",
-                 title: "Updates on the study of subthreshold events and antenna pattern",
-                speaker: "Davide Di Piero"
+                title: "Coincident detections",
+                speaker: "Edoardo Milotti"
               }
             ]
           },
@@ -278,8 +278,8 @@ export default {
               {
                 start: "15:30",
                 end: "15:50",
-                title: "Coincident detections",
-                speaker: "Edoardo Milotti"
+                title: "Gravitational Waves and Gravitational Atoms",
+                speaker: "Samuel Gómez Gómez"
               },
               {
                 start: "15:50",
@@ -290,8 +290,8 @@ export default {
               {
                 start: "16:10",
                 end: "16:30",
-                title: "Gravitational Waves and Gravitational Atoms",
-                speaker: "Samuel Gómez Gómez"
+                title: "Updates on the study of subthreshold events and antenna pattern (LVK only)",
+                speaker: "Davide Di Piero"
               },
             ]
           },
