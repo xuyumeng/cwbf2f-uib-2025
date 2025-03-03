@@ -228,19 +228,19 @@ export default {
           {
             start: "11:50",
             end: "12:30",
-            title: "cWB + other topics 1",
+            title: "cWB + other topics (LVK only)",
             expanded: true,
             subSessions: [
               {
                 start: "11:50",
                 end: "12:10",
-                title: "WDM parameters and whitening ",
-                speaker: "Alessandro Martini"
+                title: "Updates on the study of subthreshold events and antenna pattern (LVK only)",
+                speaker: "Davide Di Piero"
               },
               {
                 start: "12:10",
                 end: "12:30",
-                title: "Coincident detections",
+                title: "Coincident detections (LVK only)",
                 speaker: "Edoardo Milotti"
               }
             ]
@@ -290,8 +290,8 @@ export default {
               {
                 start: "16:10",
                 end: "16:30",
-                title: "Updates on the study of subthreshold events and antenna pattern (LVK only)",
-                speaker: "Davide Di Piero"
+                title: "WDM parameters and whitening ",
+                speaker: "Alessandro Martini"
               },
             ]
           },
