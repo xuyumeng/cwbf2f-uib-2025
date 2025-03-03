@@ -79,6 +79,17 @@
                   <span v-if="session.speaker" class="text-caption grey--text">
                     ({{ session.speaker }})
                   </span>
+                  <!-- for lvk_only: show image https://img.shields.io/badge/LVK-Only-orange.svg -->
+                  <v-img
+                    v-if="session.lvk_only"
+                    src="https://img.shields.io/badge/LVK-Only-orange.svg"
+                    max-width="60"
+                  />
+                  <v-img
+                    v-if="session.pwt_only"
+                    src="https://img.shields.io/badge/Paper%20Writing%20Team-Only-orange.svg"
+                    max-width="140"
+                  />
                 </div>
                 <v-icon v-if="session.subSessions" small>
                   {{ session.expanded ? 'mdi-chevron-up' : 'mdi-chevron-down' }}
@@ -104,6 +115,12 @@
                       <span v-if="subSession.speaker" class="text-caption grey--text">
                         ({{ subSession.speaker }})
                       </span>
+
+                      <v-img
+                        v-if="subSession.lvk_only"
+                        src="https://img.shields.io/badge/LVK-Only-orange.svg"
+                        max-width="60"
+                      />
                     </div>
                   </div>
                 </v-list-item-content>
@@ -125,9 +142,9 @@ export default {
         date: "March 3, Monday",
         sessions: [
           {
-            start: "19:30",
-            end: "21:00",
-            title: "Welcome Dinner",
+            start: "20:30",
+            end: "22:00",
+            title: "Welcome Dinner (at Moozatura)",
             type: "dinner"
           }
         ]
@@ -194,8 +211,9 @@ export default {
           {
             start: "14:30",
             end: "16:30",
-            title: "cWB-2G paper discussion (Reserved closed session for paper writing team)",
-            note: "Reserved closed session for paper writing team"
+            title: "cWB-2G paper discussion",
+            note: "Reserved closed session for paper writing team",
+            pwt_only: true
           },
           {
             start: "16:30",
@@ -217,7 +235,8 @@ export default {
           {
             start: "10:00",
             end: "11:20",
-            title: "(Burst call) cWB technical discussions"
+            title: "(Burst call) cWB technical discussions",
+            lvk_only: true,
           },
           {
             start: "11:20",
@@ -228,19 +247,22 @@ export default {
           {
             start: "11:50",
             end: "12:30",
-            title: "cWB + other topics (LVK only)",
+            title: "cWB + other topics",
+            lvk_only: true,
             expanded: true,
             subSessions: [
               {
                 start: "11:50",
                 end: "12:10",
-                title: "Updates on the study of subthreshold events and antenna pattern (LVK only)",
+                title: "Updates on the study of subthreshold events and antenna pattern",
+                lvk_only: true,
                 speaker: "Davide Di Piero"
               },
               {
                 start: "12:10",
                 end: "12:30",
-                title: "Coincident detections (LVK only)",
+                title: "Coincident detections",
+                lvk_only: true,
                 speaker: "Edoardo Milotti"
               }
             ]
