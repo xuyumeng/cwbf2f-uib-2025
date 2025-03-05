@@ -317,7 +317,7 @@ export default {
               {
                 start: "16:10",
                 end: "16:30",
-                title: "WDM parameters and whitening",
+                title: "WDM parameters and whiteningg",
                 speaker: "Alessandro Martini"
               },
             ]
