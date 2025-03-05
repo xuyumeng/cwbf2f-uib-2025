@@ -300,14 +300,14 @@ export default {
               {
                 start: "15:30",
                 end: "15:50",
-                title: "Gravitational Waves and Gravitational Atoms",
-                speaker: "Samuel Gómez Gómez"
+                title: "LISA Science Team",
+                speaker: "Anna Heffernan"
               },
               {
                 start: "15:50",
                 end: "16:10",
-                title: "LISA Science Team",
-                speaker: "Anna Heffernan"
+                title: "Gravitational Waves and Gravitational Atoms",
+                speaker: "Samuel Gómez Gómez"
               },
               {
                 start: "16:10",
