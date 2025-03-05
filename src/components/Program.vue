@@ -245,22 +245,22 @@ export default {
             type: "break"
           },
           {
-            start: "11:50",
-            end: "12:30",
+            start: "11:40",
+            end: "12:20",
             title: "cWB + other topics",
             lvk_only: true,
             expanded: true,
             subSessions: [
               {
-                start: "11:50",
-                end: "12:10",
+                start: "11:40",
+                end: "12:00",
                 title: "Updates on the study of subthreshold events and antenna pattern",
                 lvk_only: true,
                 speaker: "Davide Di Piero"
               },
               {
-                start: "12:10",
-                end: "12:30",
+                start: "12:00",
+                end: "12:20",
                 title: "Coincident detections",
                 lvk_only: true,
                 speaker: "Edoardo Milotti"
@@ -268,14 +268,14 @@ export default {
             ]
           },
           {
-            start: "12:30",
-            end: "13:10",
+            start: "12:20",
+            end: "13:00",
             title: "Invited talk: Continuous gravitational waves",
             speaker: "Pep Covas Vidal"
           },
           {
-            start: "13:10",
-            end: "13:20",
+            start: "13:00",
+            end: "13:10",
             title: "Group photo",
           },
           {
