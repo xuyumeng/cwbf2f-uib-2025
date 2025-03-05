@@ -299,7 +299,7 @@ export default {
               {
                 start: "15:10",
                 end: "15:30",
-                title: "TBD (On lensed continuous gravitational waves)",
+                title: "Probing Sgr A* properties with lensed continuous gravitational waves",
                 speaker: "Aditya Kumar Sharma"
               },
               {
@@ -317,7 +317,7 @@ export default {
               {
                 start: "16:10",
                 end: "16:30",
-                title: "WDM parameters and whitening ",
+                title: "WDM parameters and whitening",
                 speaker: "Alessandro Martini"
               },
             ]
