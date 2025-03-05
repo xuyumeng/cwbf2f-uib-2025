@@ -275,6 +275,11 @@ export default {
           },
           {
             start: "13:10",
+            end: "13:20",
+            title: "Group photo",
+          },
+          {
+            start: "13:20",
             end: "14:30",
             title: "Lunch",
             type: "lunch"
