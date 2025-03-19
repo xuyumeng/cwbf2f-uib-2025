@@ -48,6 +48,7 @@
 Aditya Kumar Sharma	University of the Balearic Islands	TRUE
 agata trovato	University of Trieste	FALSE
 Alessandro Martini	University of Trento	TRUE
+Alicia Calafat	University of the Balearic Islands	TRUE
 Alicia M. Sintes	University of the Balearic Islands	TRUE
 Andrea Miani	Università di trento	TRUE
 Anna Heffernan	University of the Balearic Islands	TRUE
