@@ -58,6 +58,7 @@ Claudia Lazzaro	University of Cagliari	TRUE
 David Keitel	University of the Balearic Islands	TRUE
 Davide Di Piero	University of Trieste	TRUE
 Edoardo Milotti	University of Trieste	TRUE
+Felip Antoni Ramis Vidal   University of the Balearic Islands	TRUE
 Francesco Salemi	University of Rome "La Sapienza"	TRUE
 Giacomo Principe	University of Trieste	FALSE
 Giovanni Prodi	University of Trento	TRUE
@@ -65,6 +66,7 @@ Giuseppe Troian	University of Trieste	TRUE
 Iuri La Rosa	University of the Balearic Islands	TRUE
 Jesus Yebana	University of the Balearic Islands	TRUE
 Joan Llobera-Querol	University of the Balearic Islands	TRUE
+Joan-René Mérou	University of the Balearic Islands	TRUE
 Jorge Valencia	University of the Balearic Islands	TRUE
 Leigh Smith	University of Trieste	FALSE
 Marco Drago	La Sapienza, Roma	FALSE
@@ -77,7 +79,6 @@ Pep Covas Vidal	University of the Balearic Islands	TRUE
 Samuel Gómez Gómez	University of the Balearic Islands	TRUE
 Sascha Husa	University of the Balearic Islands	TRUE
 Shubhanshu Tiwari	University of Zurich	TRUE
-Xavier Millan Mir	University of Zurich	TRUE
 Yumeng Xu	University of the Balearic Islands	TRUE
       `,
       participants: [
